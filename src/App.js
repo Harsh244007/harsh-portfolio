@@ -4,12 +4,15 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
-// import Dashboard from './components/Dashboard'
+import Main from './components/Chat/Main'
 import './App.scss'
 
 function App() {
   return (
     <>
+    {/* //   <Main  />
+       */}
+ 
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

@@ -1,0 +1,197 @@
+.harsh{
+    color: black;
+    background-color: white !important;
+ position:absolute;
+ height:28vw;
+  width:28vw;
+  border:0.01vw solid grey;
+  border-radius: 20px;
+   margin:0vw 1vw 0vw 2vw;
+   animation: 2s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden;  
+}
+button::after{
+  background-color: none;
+}
+.home{
+    height: 10px!important;
+    width: 10px!important;
+        position: static;
+}
+.imageh{
+      animation: 3s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden;
+    width: 5vw;
+    /* height: 10vw; */
+    margin: -2vw 0vw 0vw 3vw;
+    /* box-shadow:0vw 0vw 0vw 0.13vw; */
+    border-radius:  5vh;
+/* background-color: darkorange; */
+      box-shadow: 0.5vw 1vw 1vw rgba(0, 8, 8, 0.27);
+}
+.ha{
+    margin: 1vw 0vw 1vw 3vw;
+}
+.hap{
+    font-size: 1.4vw;
+      animation: 4s fadeIn;
+     animation-fill-mode:forwards;
+  visibility: hidden;
+}
+.mainiris{
+   animation: 1s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+}
+.buttn1{
+    animation: 5s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+    border: 0.1vw solid black;
+    margin: 0.6vw 0.4vw 0.2vw 0.4vw;
+     /* font-size: 1.7vw; */
+    width: 22vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+.buttn2{
+    animation: 6s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+    border: 0.1vw solid black;
+    margin: 0.4vw 0.4vw 0.2vw 0.4vw;
+     /* font-size: 1.7vw; */
+    width: 22vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+.buttn3{
+    animation: 7s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+    border: 0.1vw solid black;
+    margin: 0.4vw 0.4vw 0.2vw 0.4vw;
+     /* font-size: 1.7vw; */
+    width: 22vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+
+
+.buttn4{
+    animation:8s fadeIn;
+     animation-fill-mode:forwards; 
+  visibility: hidden; 
+    border: 0.1vw solid black;
+    margin: 0.4vw 0.4vw 0.2vw 0.4vw;
+     /* font-size: 1.7vw; */
+    width: 22vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+.final{
+ width: 18vw;
+      border: 1px solid black;
+ text-align: center;
+    margin: 0.5vw 3vw 0vw 2.5vw;
+    border-radius: 3vw;
+    height: 3.5vw;
+      
+    animation:9s fadeIn2;
+     animation-fill-mode:forwards; 
+  visibility: hidden; box-shadow: 0.2vw 0.2vw grey; 
+  }
+.darkm{
+  position: fixed;
+  top: 1vw;
+  right: 2vw;
+  width: 6vw;
+  outline: none !important;
+  
+  height: 6vh;
+}
+.starta{
+  animation:mymove2 5s  infinite;
+}
+
+@keyframes mymove2 {
+  from {font-size: 1.3vw;font-weight: 600;}
+  to{font-size: 1.1vw;font-weight: 400;}
+  to{font-size: 0.9vw;font-weight: 500;}
+}
+
+@keyframes fadeIn2 {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.button13{
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  from {width:12vw;height: 5vw;box-shadow: 1vw 1vw 1vw 1vw rgba(0, 8, 8, 0.27);}
+  to{width:10vw;height: 3vw;}
+}
+
+.textmain{
+  font-size: 3vh;
+  /* color: white; */
+  position:fixed;
+  left: 10vw;
+  right: 10vw;
+  text-align: center
+}
+.mainchat{
+   position: fixed;
+  bottom: 27vw;
+  right: 12vw;
+}
+
+
+@keyframes fadeIn {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.final>p{
+    font-size:1.2vw;
+    font-weight: 600;
+      
+}
+
+.buttn1>p{
+    font-size: 1.1vw;
+}
+
+.buttn2>p{
+    font-size: 1.1vw;
+}
+.buttn3>p{
+    font-size: 1.1vw;
+}
+.buttn4>p{
+    font-size: 1.1vw;
+}
