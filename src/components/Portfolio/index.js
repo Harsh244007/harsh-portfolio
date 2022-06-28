@@ -1,21 +1,14 @@
-import { useState,useLayoutEffect,useRef } from 'react'
+import { useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import expedia from "./expedia.gif"
 import shop from "./shop.gif"
 import fab from "./fab.gif"
-import axios from "axios"
 
 const Portfolio = () => {
-  useLayoutEffect(() => {
-    axios("http://188.166.98.109:5000/num").then((e)=>console.log(e.data)).catch((e)=>e.data)
-
-  }, [])
+  const [letterClass, setLetterClass] = useState('text-animate')
   
-     const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
-
   return (
 
     <>
