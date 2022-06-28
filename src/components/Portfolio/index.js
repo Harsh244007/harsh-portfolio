@@ -23,7 +23,7 @@ const Portfolio = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i ', 'o', ' ','u', 'n', 'd', 'e', 'r', ' ', 'p', 'r ', 'o', 'c', 'e', 's', 's']}
-              idx={15}
+              idx={4}
             />
           </h1>
           <h2>Phone</h2>
