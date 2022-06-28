@@ -11,8 +11,7 @@ import { useState } from 'react'
 // import { ThemeContext, themes } from '../DarkTheme' 
 
 const Sidebar = () => {
-  const [darkMode, setDarkMode] = useState(true);
-
+ 
   return (
     <div className="nav-bar">
       {/* <ThemeContext.Consumer>
