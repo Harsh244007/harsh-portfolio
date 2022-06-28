@@ -27,7 +27,7 @@ const Contact = () => {
           </h1>
           <h2>Phone</h2>
           <h3>
-            {/* <i class="flag flag-united-states"></i> */}
+         
             +91-8141924047</h3>
           
           <h2>Email</h2>
@@ -36,17 +36,19 @@ const Contact = () => {
  <h3 style={{ color: "white" }}>patelharsh241999@gmail.com</h3>
 </Link>
           <h2>Address</h2>
-          <Link to="https://goo.gl/maps/vmM3sE9bxuhvxQ4j8" rel="noreferrer" target="_blank"
+          <a href= "https://goo.gl/maps/vmM3sE9bxuhvxQ4j8"
+            // rel="noreferrer"
+            target="_blank"
        style={{ textDecoration: "none" }}>
  <h3 style={{ color: "white" }}>Ahmedabad, Gujarat, India - 380026</h3>
-          </Link>
+          </a>
         
 
           <h2>
-          <Link to="https://drive.google.com/file/d/1fwTjXYFq6btSyczoFa-19b1UOu-guaso/view" target="_blank" rel="noreferrer"
-       style={{ textDecoration: "none" }}>
+          <a href="https://drive.google.com/file/d/1fwTjXYFq6btSyczoFa-19b1UOu-guaso/view" target="_blank" rel="noreferrer"
+              style={{ textDecoration: "none",color:"red" }}>
   You can find my Resume here.
-            </Link>
+            </a>
             </h2>  
             <h2>Social</h2>
                 

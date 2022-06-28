@@ -38,7 +38,8 @@ Hello, I am Harsh, a Full-stack developer for MERN stack. I love creating webapp
 You can find my Projects info   <Link to="/portfolio" 
        style={{ textDecoration: "none",color:"skyblue" }}>
   here.
-            </Link> , or you can Reach me   <Link to="/contact" 
+            </Link>
+            , or you can Reach me   <Link to="/contact" 
        style={{ textDecoration: "none",color:"skyblue" }}>
   here.
             </Link> 
