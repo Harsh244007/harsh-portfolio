@@ -16,11 +16,22 @@
     left: 10vh !important;
     width: 80% !important;
   }
+  .about-page{ 
+    overflow: hidden !important;
+  h3{
+    width: 60% !important;
+
+  }
+}
 }
 .flat-button{
   margin-left: 1vh !important;
 }
-
+.text-zone{
+  h3{
+    width: 40%;
+  }
+}
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;

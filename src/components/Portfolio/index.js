@@ -31,13 +31,13 @@ const Portfolio = () => {
           </h1>
           <div className='main'>
             <div className='first'>
-              <img className='image' src={expedia}></img>
+                   <a target="_blank" class="linke" href="https://expediacloneunit5.netlify.app/">  <img className='image' src={expedia}></img>  </a>
                   <h2>
                 Expedia clone.</h2>
-                    <a  target="_blank"  class="linke" href="https://expediacloneunit5.netlify.app/" rel="noopener noreferrer"> Website Link</a>
-              <a target="_blank" class="linke" href="https://expediacloneunit5.netlify.app/">
-              </a>
-
+              <a target="_blank" class="linke" href="https://expediacloneunit5.netlify.app/" rel="noopener noreferrer"> Website Link</a>
+              <br/>
+              <a target="_blank" class="linke" href="https://github.com/Harsh244007/expedia-clone" rel="noopener noreferrer"> Git Hub Repo</a>
+              
              <h3>
               
                Expedia is an E-commerce company who are in the Tourism business.
@@ -67,11 +67,16 @@ const Portfolio = () => {
 
 
             <div className='second'>
-              <img className='image' src={shop}></img>
+              <a  target="_blank"  class="linke" href="https://unit4-project-harsh.netlify.app/">    <img className='image' src={shop}></img>
+               </a>
                   <h2>
                   ShoppersStop clone.</h2>
-                   <a  target="_blank" class="linke" href="https://unit4-project-harsh.netlify.app/" target="_blank" rel="noopener noreferrer"> Website Link</a>
-        <a  target="_blank"  class="linke" href="https://unit4-project-harsh.netlify.app/">     </a>
+              <a target="_blank" class="linke" href="https://unit4-project-harsh.netlify.app/" rel="noopener noreferrer"> Website Link</a>
+              
+               <br/>
+                    <a  target="_blank"  class="linke" href="
+      https://github.com/Harsh244007/UNIT4-PROJECT-SHOPPERS-STOP" rel="noopener noreferrer"> Git Hub Repo</a>
+        
            < h3>
                 Shoppers Stop is an E-commerce company who are in the business
                 of Fashion, garments, and Household products.
@@ -111,12 +116,16 @@ const Portfolio = () => {
 
 
             <div className='third'>
-              <img className='image' src={fab}></img>
+              <a  target="_blank"  class="linke" href="https://unit2-project-harsh.netlify.app/">  
+              <img className='image' src={fab}></img></a>
                   <h2>
                 FabBag clone.</h2>
                   
-              <a  target="_blank"  class="linke" href="https://unit2-project-harsh.netlify.app/" target="_blank" rel="noopener noreferrer"> Website Link</a>
-            <a  target="_blank"  class="linke" href="https://unit2-project-harsh.netlify.app/">  </a>
+              <a  target="_blank"  class="linke" href="https://unit2-project-harsh.netlify.app/"  rel="noopener noreferrer"> Website Link</a>
+            
+              
+               <br/>
+                    <a  target="_blank"  class="linke" href="https://github.com/Harsh244007/Fabbag-2.0" rel="noopener noreferrer"> Git Hub Repo</a>
  <h3>
                 Fab-Bag is an E-commerce company who are in the beauty cosmetic
                 business.
