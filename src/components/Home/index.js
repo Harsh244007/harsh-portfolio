@@ -51,10 +51,18 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>React MERN Stack Developer</h2>
+          <h2>React MERN Full stack web Developer</h2>
+          <div className='formc'>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <Link to="/about" className="flat-button">
+            ABOUT
+            </Link>
+            <Link to="/portfolio" className="flat-button">
+            PORTFOLIO
+            </Link>
+            </div>
         </div>
       </div>
 
