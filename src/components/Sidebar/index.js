@@ -52,22 +52,22 @@ const Sidebar = () => {
       </nav>
       <ul>
         <li>
-          <Link
-            to="https://www.linkedin.com/in/harsh-patel244/"
+          <a
+            href="https://www.linkedin.com/in/harsh-patel244/"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" className='linked' />
-          </Link>
+            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" style={{fontSize:"3.1vh"}} className='linked' />
+          </a>
         </li>
         <li>
-          <Link
-            to="https://github.com/Harsh244007/"
+          <a
+            href="https://github.com/Harsh244007/"
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-          </Link>
+            <FontAwesomeIcon className='linked'  icon={faGithub} style={{fontSize:"3.1vh"}} color="#4d4d4e" />
+          </a>
         </li>
      
       </ul>

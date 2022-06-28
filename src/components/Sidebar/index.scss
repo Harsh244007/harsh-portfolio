@@ -2,17 +2,18 @@
   color: black;
  right: 2px;
 }
-.linked::after{
- content: 'HOME';
+.linked:hover{
+  color: #ffd700 !important;
+  font-size: 4vh !important;
 }
 .nav-bar {
   background: #181818;
-  width: 60px;
+  width: 70px;
   height: 100%;
   position:fixed;
   top: 0;
   z-index: 3;
-  min-height: 500px;
+  min-height: 300px;
 
   .logo {
     display: block;
@@ -54,7 +55,6 @@
 
       &:hover {
         color: #ffd700;
-
         svg {
           opacity: 0;
         }
@@ -66,7 +66,7 @@
 
       &:after {
         content: '';
-        font-size: 9px;
+        font-size: 10px;
         letter-spacing: 2px;
         position: absolute;
         bottom: 0;
@@ -81,6 +81,7 @@
       &:first-child {
         &:after {
           content: 'HOME';
+        
         }
       }
     }
@@ -90,7 +91,6 @@
         content: 'ABOUT';
       }
     }
-
     a.contact-link {
       &:after {
         content: 'CONTACT';
@@ -106,6 +106,7 @@
     a.active {
       svg {
         color: #ffd700;
+        font-size: 3vh;
       }
     }
   }
