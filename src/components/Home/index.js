@@ -64,7 +64,12 @@ const Home = () => {
             <Link to="/portfolio" className="flat-button">
             PORTFOLIO
             </Link>
-            </div>
+          
+            <a target="_blank" rel="noopener noreferrer" href="http://188.166.98.109:5000/" className='flat-button'>API</a>
+          
+          </div>
+            
+          
         </div>
       </div>
 

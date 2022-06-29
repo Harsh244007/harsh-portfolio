@@ -28,7 +28,7 @@ const Portfolio = () => {
                 Expedia clone.</h2>
               <a target="_blank" className="linke" href="https://expediacloneunit5.netlify.app/" rel="noopener noreferrer"> Website Link</a>
               <br/>
-              <a target="_blank" className="linke" href="https://github.com/Harsh244007/expedia-clone" rel="noopener noreferrer"> Git Hub Repo</a>
+              <a target="_blank" rel="noopener noreferrer" className="linke" href="https://github.com/Harsh244007/expedia-clone" > Git Hub Repo</a>
               
              <h3>
               
