@@ -20,7 +20,11 @@ const Portfolio = () => {
               strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i ', 'o', ' ']}
               idx={4}
             />
-          </h1>
+            
+            
+          </h1><div style={{display:"grid"}}>
+          <a target="_blank" rel="noopener noreferrer" href="http://188.166.98.109" className='flat-button'>API</a>
+           
           <div className='main'>
             <div className='first'>
                    <a target="_blank" className="linke" href="https://expediacloneunit5.netlify.app/">  <img className='image' src={expedia}></img>  </a>
@@ -151,7 +155,7 @@ const Portfolio = () => {
         
         
         </div>
-       
+      </div> 
        
       </div>
       <Loader type="pacman" />
