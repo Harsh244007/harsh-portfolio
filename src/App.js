@@ -6,6 +6,7 @@ import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
 import Main from './components/Chat/Main'
 import './App.scss'
+import ErrorPage from './components/ErrorPages'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          
+          <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
     </>
