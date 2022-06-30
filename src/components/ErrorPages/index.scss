@@ -1,40 +1,45 @@
 
 @media only screen and (max-width:800px) {
 
-  .about-page{
+  .about-age{
     left: 10vh !important;
     width: 80% !important;
   }
-  .about-page{ 
-    overflow: hidden !important;
-  h3{
-    width: 60% !important;
+  .about-age{ 
+    overflow: hidden;
+  .h1a{
+    width: 60% ;
 
   }
 }
 }
+//  .text-zone {
+//     position: absolute;
+//     left: 20%;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     width: 80%;
+//     max-height: 90%;
+//   }
 
-  h1{
-    left: 2.4vh !important;
-    top: 3vw !important;
+  .h1a{
+    left: 2.4vh ;
+    top: 3vw ;
     // margin-left: 20vh !important;
   }
-.text-zone{
-  h3{
+.text-one{
+  .h3a{
     width: 70%;
     margin-left: 1.5vw;
   }
 }
 
-  .about-page{
-    top: 20vh;
-    
+  .about-age{
+    top: 10vh;
+    padding-left: 2vw;
     font-size: 2vh;
     left: 15vh !important;
-
     width: 70%;
-      justify-content: center ;
-    align-items: center;
     margin: 2vw 2vw 2vw 2vw;
 }  
 

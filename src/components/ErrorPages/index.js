@@ -9,21 +9,21 @@ const ErrorPage = () => {
    const [letterClass, setLetterClass] = useState('text-animate')
   return (
   <>
-    <div className="text-zone container about-page">
-          <h1>
-            <AnimatedLetters
+    <div className="text-one container about-page about-age">
+          <h1 className='h1a'>
+            <AnimatedLetters 
               letterClass={letterClass}
               strArray={['E', 'r', 'r', 'o', 'r',]}
               idx={15}
             />
         </h1>
         <br/>
-          <h3>
+          <h3 className='h3a'>
           
 Oops We can't seem to find the page you're looking for but,
 
           </h3>
-          <h3 align="LEFT">
+          <h3  className='h3a' align="LEFT">
             you can goto home from here   <Link to="/" 
        style={{ textDecoration: "none",color:"orange" }}>
   here.
