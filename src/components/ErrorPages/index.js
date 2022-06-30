@@ -13,7 +13,7 @@ const ErrorPage = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['E', 'r', 'o', 'r', 'r',]}
+              strArray={['E', 'r', 'r', 'o', 'r',]}
               idx={15}
             />
         </h1>
