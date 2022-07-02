@@ -3,6 +3,8 @@ import {
  faNodeJs,
   faCss3,
   faGitAlt,
+  faNode,
+  faAws,
   faHtml5,
   faJsSquare,
   faReact,
@@ -50,8 +52,9 @@ You can find my Projects info   <Link to="/portfolio"
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faNodeJs} color="#DD0031" />
+              <FontAwesomeIcon icon={faNode} color="#DD0031" />
             </div>
+            
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
             </div>
@@ -67,6 +70,7 @@ You can find my Projects info   <Link to="/portfolio"
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
+         
           </div>
         </div>
       </div>
