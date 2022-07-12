@@ -1,54 +1,27 @@
-import React, { Suspense } from "react"
-import './App.scss'
-import Loader from "react-loaders"
 import { Route, Routes } from 'react-router-dom'
-const Home = React.lazy(() => import("./components/Home"))
-const About = React.lazy(() => import("./components/About"))
-const Contact = React.lazy(() => import("./components/Contact"))
-const Layout = React.lazy(() => import("./components/Layout"))
-const Portfolio = React.lazy(() => import("./components/Portfolio"))
-const ErrorPage = React.lazy(() => import("./components/ErrorPages"))
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Layout from './components/Layout'
+import Portfolio from './components/Portfolio'
+import Main from './components/Chat/Main'
+import './App.scss'
+import ErrorPage from './components/ErrorPages'
 
 function App() {
   return (
     <>
-      {/* //   <Main  />
+    {/* //   <Main  />
        */}
-
+ 
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/about" element={
-
-            <Suspense fallback={<Loader type="pacman" />}>
-
-              <About />
-            </Suspense>} />
-
-
-          <Route path="/contact" element={
-
-            <Suspense fallback={<Loader type="pacman" />}>
-              <Contact />
-            </Suspense>} />
-
-
-          <Route path="/portfolio" element={
-
-            <Suspense fallback={<Loader type="pacman" />}>
-              <Portfolio />
-
-            </Suspense>} />
-
-
-          <Route path="*" element={
-
-            <Suspense fallback={<Loader type="pacman" />}>
-
-              <ErrorPage />
-
-            </Suspense>
-          } />
+          <Route path="about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          
+          <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
     </>
