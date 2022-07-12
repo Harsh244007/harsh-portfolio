@@ -1,12 +1,13 @@
-import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
-import Layout from './components/Layout'
-import Portfolio from './components/Portfolio'
-import Main from './components/Chat/Main'
+import React,{Suspense} from "react"
 import './App.scss'
-import ErrorPage from './components/ErrorPages'
+import { Route, Routes } from 'react-router-dom'
+const Home=React.lazy(()=>import("./components/Home"))
+const About=React.lazy(()=>import("./components/About"))
+const Contact=React.lazy(()=>import("./components/Contact"))
+const Layout=React.lazy(()=>import("./components/Layout"))
+const Portfolio=React.lazy(()=>import("./components/Portfolio"))
+const ErrorPage=React.lazy(()=>import("./components/ErrorPages"))
+
 
 function App() {
   return (
@@ -16,12 +17,37 @@ function App() {
  
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route index element={
+          <Suspense fallback={<h1>About page is loading</h1>}>
+          <Home />
+          </Suspense>}/>
+          <Route path="/about" element={
+          <Suspense fallback={<h1>About page is loading</h1>}>
+
+          <About />
+    </Suspense>}/>
+         
           
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="/contact" element={
+          <Suspense fallback={<h1>Contact page is loading</h1>}>
+          <Contact />
+         </Suspense>}/> 
+       
+        
+          <Route path="/portfolio" element={
+            <Suspense fallback={<h1>Portfolio is loading</h1>}>
+          <Portfolio />
+          
+        </Suspense>}/> 
+         
+
+          <Route path="*" element={
+          <Suspense fallback={<h1>Error page</h1>}>
+                    
+          <ErrorPage />
+          
+          </Suspense>
+          } />
         </Route>
       </Routes>
     </>
