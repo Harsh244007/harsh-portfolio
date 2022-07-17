@@ -47,7 +47,7 @@ You can find my Projects info   <Link to="/portfolio"
   here.
             </Link> 
           </h3>
-<h3 >My own NPM packages.
+<h3 >My NPM packages.
           <br/><a href='https://www.npmjs.com/~harsh244007'  target="_blank" className='link'>https://www.npmjs.com/~harsh244007</a></h3>
         </div>
 
