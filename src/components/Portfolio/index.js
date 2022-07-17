@@ -24,8 +24,8 @@ const Portfolio = () => {
             
           </h1><div style={{display:"grid"}}>
           <a target="_blank" rel="noopener noreferrer" href="https://apis.harshp24.tech/" className='flat-button'>API</a>
-       <h2 className='text' >My NPM packages.
-          <br/><a href='https://www.npmjs.com/~harsh244007'  target="_blank" className='link'>https://www.npmjs.com/~harsh244007</a></h2>
+       <h2 className='text' >
+          <a href='https://www.npmjs.com/~harsh244007'  target="_blank" className='link'>My NPM packages.</a></h2>
           <div className='main'>
             <div className='first'>
                    <a target="_blank" className="linke" href="https://expediacloneunit5.netlify.app/">  <img className='image' src={expedia}></img>  </a>
