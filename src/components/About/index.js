@@ -47,8 +47,8 @@ You can find my Projects info   <Link to="/portfolio"
   here.
             </Link> 
           </h3>
-<h3 >My own NPM package.
-          <br/><a href='https://www.npmjs.com/package/harsh-react-app'  target="_blank" className='link'>https://www.npmjs.com/package/harsh-react-app</a></h3>
+<h3 >My own NPM packages.
+          <br/><a href='https://www.npmjs.com/~harsh244007'  target="_blank" className='link'>https://www.npmjs.com/~harsh244007</a></h3>
         </div>
 
         <div className="stage-cube-cont">
