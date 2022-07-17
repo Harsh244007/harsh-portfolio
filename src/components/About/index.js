@@ -35,6 +35,7 @@ const About = () => {
 Hello, I am Harsh, a Full-stack developer for MERN stack. I love creating webapps with React JS. I posses some superpower's few of which are communication skill, collaborative skills, passionate about coding and learning new technologies.
 
           </h3>
+          
           <h3 align="LEFT">
             
 You can find my Projects info   <Link to="/portfolio" 
@@ -46,7 +47,8 @@ You can find my Projects info   <Link to="/portfolio"
   here.
             </Link> 
           </h3>
-
+<h3 >My own NPM package.
+          <br/><a href='https://www.npmjs.com/package/harsh-react-app'  target="_blank" className='link'>https://www.npmjs.com/package/harsh-react-app</a></h3>
         </div>
 
         <div className="stage-cube-cont">

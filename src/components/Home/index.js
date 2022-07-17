@@ -10,11 +10,10 @@ const Home = () => {
 
   const nameArray = [' ','H','a', 'r', 's', 'h']
   const jobArray = [
+    'M',
+    'E',
     'R',
-    'e',
-    'a',
-    'c',
-    't',
+    'N',
     ' ',
     'd',
     'e',
@@ -53,7 +52,8 @@ const Home = () => {
               idx={5}
             />
           </h1>
-          <h2>React MERN Full stack web Developer</h2>
+          <h2 className='text'>My own NPM package.
+          <br/><a href='https://www.npmjs.com/package/harsh-react-app'  target="_blank" className='link'>https://www.npmjs.com/package/harsh-react-app</a></h2>
           <div className='formc'>
           <Link to="/contact" className="flat-button">
             CONTACT ME
